@@ -123,6 +123,7 @@ class DMI(EnergyTerm):
     TypeError: ...
 
     """
+
     _allowed_attributes = ["D", "D1", "D2", "D3", "Dx", "Dy", "crystalclass"]
 
     @property
